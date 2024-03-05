@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <header><h1>Pesquisa de satisfação</h1></header>
+    <body>
+        <form action="Dados pessoais" method="post">
+            <p>
+                <label for="nome">Nome:</label>
+                <input id="nome" type="text" placeholder="Digite seu nome completo"></p>
+            <p>
+                <label for="email">E-mail:</label>
+                <input id="email"type="email" placeholder="Digite seu e-mail"></p>
+            <p>
+                <label for="tel">Telefone para contato:</label>
+                <input id="tel" type="tel" placeholder="Digite seu número de Telefone"></p>
+        </form>
+        <form action="pesquisa" method="post">
+            
+                <p>Qual sua etnia?
+                    <label><input type="radio" name="raça">Negro</label>
+                    <label><input type="radio" name="raça">Pardo</label>
+                    <label><input type="radio" name="raça">Branco</label>
+                </p>
+                <p>Qual sua prefêrencia de esporte?
+                    <label><input type="radio" name="esporte">Basquete</label>
+                    <label><input type="radio" name="esporte">Futebol/Futsal</label>
+                    <label><input type="radio" name="esporte">Vôlei</label>
+                </p>
+                <label for="idade">Qual a sua idade?</label>
+                <select id="idade">
+                    <option>10 à 15 anos</option>
+                    <option>16 à 20 anos</option>
+                    <option>21 à 30 anos</option>
+                    <option>31 anos +</option>
+                </select>
+                <p>Permite compartilhar suas informações com terceiros?
+                    <label for="check"><input id="check" type="checkbox">Sim</label>
+                    <label for="check"><input id="check" type="checkbox">Não</label>
+                </p>
+                <input type="submit" value="Enviar respostas!">
+    </form>
+    </body>
+</html>
