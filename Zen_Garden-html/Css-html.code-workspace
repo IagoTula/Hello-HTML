@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Css-html"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Zen_Garden-html"
+	}
+}
